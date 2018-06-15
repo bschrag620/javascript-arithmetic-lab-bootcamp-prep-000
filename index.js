@@ -11,11 +11,12 @@ function multiply(a,b){
 }
 
 function divide(a,b){
-  return a/d
+  return a/b
 }
 
 function inc(n){
-  return n++
+  n++
+  return n
 }
 
 function dec(n){
