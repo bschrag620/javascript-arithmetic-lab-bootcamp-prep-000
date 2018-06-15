@@ -23,5 +23,19 @@ function dec(n){
 }
 
 function makeInt(n){
-  if parseInt(n,10) === 
+  if isNaN(parseInt(n,10)){
+    return true
+  }
+  else {
+    return parseInt(n,10)
+  }
+}
+
+function preserveDecimal(n){
+  if isNaN(parseFloat(n,10)){
+    return true
+  }
+  else {
+    return parseFloat(n,10)
+  }
 }
