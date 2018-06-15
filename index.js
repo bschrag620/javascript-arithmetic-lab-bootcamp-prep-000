@@ -23,7 +23,7 @@ function dec(n){
 }
 
 function makeInt(n){
-  if isNaN(parseInt(n,10)){
+  if (isNaN(parseInt(n,10))){
     return true
   }
   else {
@@ -32,7 +32,7 @@ function makeInt(n){
 }
 
 function preserveDecimal(n){
-  if isNaN(parseFloat(n,10)){
+  if (isNaN(parseFloat(n,10))){
     return true
   }
   else {
